@@ -1,0 +1,35 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.d
+*.elf
+*.bin
+*.hex
+*.dump
+
+# Verilator
+obj_dir/
+*.vcd
+*.fst
+*.fst.hier
+
+# Simulation
+sim/logs/
+sim/wave/*.gtkw
+
+# Synthesis
+synth/reports/
+synth/openlane/runs/
+
+# OS and editor
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Toolchain builds
+sw/opensbi/build/
+sw/linux/build/
